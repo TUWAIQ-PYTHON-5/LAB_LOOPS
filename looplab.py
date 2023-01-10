@@ -10,11 +10,11 @@ for num in range (45,210):
         continue
     elif num == 205 :
         break
-    print(num)
-product_answer = 168
-product_answer : int(input("what is the product of 7 * 24 ? "))
-while product_answer != product_answer :
-    print("Your Answer is wrong try again..")
-else :
-   int(input("what is the product of 7 * 24 ? "))
-print("You answered this Question correctly")
+    print(num)   
+while True:
+    product_answer =int (input("what is the product of 7 * 24 ?"))
+    if product_answer == 168 :
+      print("you answer this Question correctly ")
+    
+    else :
+      print ("you answer is wrong try again  ") 
