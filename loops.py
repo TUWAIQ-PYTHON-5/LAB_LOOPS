@@ -11,5 +11,4 @@ for number in range(45, 210):
         usrAnswer: int = int(input("Your Answer is wrong, try again"))
     else:
         print("You answerd this Question correctly")
-        break
-    
+    break
