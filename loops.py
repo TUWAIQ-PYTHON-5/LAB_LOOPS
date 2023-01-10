@@ -8,6 +8,8 @@ for number in range(45, 210):
 
     usrAnswer: int = int(input("What is the prodect of 7 x 24 ?"))
     while usrAnswer != 168: 
-        print("Your Answer is wrong, try again")
+        usrAnswer: int = int(input("Your Answer is wrong, try again"))
     else:
         print("You answerd this Question correctly")
+        break
+    
