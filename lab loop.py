@@ -13,8 +13,9 @@ for varblies in range(45,210):
 
 
 #qusiton2
-user = int(input("what is the product of 7 * 24 ?")) 
-while user == 168: 
+user = int(input("what is the product of 7 * 24 ?"))
+while user == 168:
+    user +=1
     print("You answered this Question correctly")
     break
 else:
