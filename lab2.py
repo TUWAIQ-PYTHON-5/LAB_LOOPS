@@ -13,6 +13,7 @@ while x:
  product : int = input("what is the product of 7 * 24 ? ")
  if product == 168: 
     x=False
+    
  else: 
     print("Your Answer is wrong try again.") 
     continue
