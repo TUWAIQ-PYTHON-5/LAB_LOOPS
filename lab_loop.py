@@ -19,14 +19,9 @@ for number in range(45, 210):
 #- if the answer is wrong, then print "Your Answer is wrong try again.." and show the user the question again.
 user_intpput = input("what is the product of 7 * 24 ?" )
 
-while user_intpput != '168':
+while int(user_intpput) != 7*24:
       print("Your Answer is wrong try again..")
       user_intpput = input ("what is the product of 7 * 24 ?")
-      
-if user_intpput == '168' :
-    print(user_intpput, "You answered this Question correctly " )  
-     
-     
-     
 
-
+else :
+      print("You answered this Question correctly " ) 
