@@ -17,15 +17,16 @@ for number in range(45, 210):
 #- Ask the the user : "what is the product of 7 * 24 ?"
 #- check if the answer is right then exit the loop and print "You answered this Question correctly"
 #- if the answer is wrong, then print "Your Answer is wrong try again.." and show the user the question again.
+user_intpput = input("what is the product of 7 * 24 ?" )
 
-user_intpput : str = input("what is the product of 7 * 24 ?" )
-while  user_intpput == '168':
-     print("You answered this Question correctly")
-     break
-else: 
-     print("Your Answer is wrong try again.. " )   
-     user_intpput : str = input("what is the product of 7 * 24 ?")
-     print("You answered this Question correctly")
+while user_intpput != '168':
+      print("Your Answer is wrong try again..")
+      user_intpput = input ("what is the product of 7 * 24 ?")
+      
+if user_intpput == '168' :
+    print(user_intpput, "You answered this Question correctly " )  
+     
+     
      
 
 
